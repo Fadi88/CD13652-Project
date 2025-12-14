@@ -53,14 +53,3 @@ To get a local copy up and running, follow these steps.
 *   **Data Cleaning**: Handling NaNs, merging datasets with different frequencies.
 *   **Model Training**: Random Forest Classifier with GridSearchCV for hyperparameter tuning.
 *   **Evaluation**: Accuracy, Precision, Recall, F1-score, and Feature Importance analysis.
-
-## Recent Fixes & Improvements
-
-The `project_starter.ipynb` notebook has been updated to resolve several issues:
-
-*   **Fixed Duplicate Plots**: Replaced 15+ instances where incorrect plotting code was obscuring the intended logic.
-*   **Restored Logic**:
-    *   **Data Cleaning**: Correctly dropped rows with NaN values and future data leakage.
-    *   **Feature Selection**: Implemented logic to drop collinear features (Bollinger Bands) and features correlated with RSI.
-    *   **Model Tuning & Evaluation**: Restored code for extracting best hyperparameters from GridSearchCV and calculating confusion matrix metrics.
-*   **Student Answers**: Added data-backed answers to reflection questions regarding model performance, overfitting, and baseline comparisons.
