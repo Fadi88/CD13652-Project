@@ -36,3 +36,7 @@ test/
 debug/
 *.tmp
 *.log
+
+# uv
+.venv/
+uv.lock
