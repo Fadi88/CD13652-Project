@@ -26,10 +26,9 @@ To get a local copy up and running, follow these steps.
     ```bash
     pip install uv
     ```
-3.  Create a virtual environment and sync dependencies:
+3.  Sync dependencies:
     ```bash
-    uv venv
-    uv pip install pandas numpy matplotlib seaborn plotly scikit-learn ta yfinance
+    uv sync
     ```
 
 ### Usage

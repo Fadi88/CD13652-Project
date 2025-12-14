@@ -39,4 +39,3 @@ debug/
 
 # uv
 .venv/
-uv.lock

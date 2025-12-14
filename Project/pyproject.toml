@@ -1,0 +1,19 @@
+[project]
+name = "cd13652-project"
+version = "0.1.0"
+description = "Optimizing AI Trading Algorithms"
+readme = "readme.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "matplotlib",
+    "seaborn",
+    "plotly",
+    "scikit-learn",
+    "ta",
+    "yfinance"
+]
+
+[tool.uv]
+package = false
