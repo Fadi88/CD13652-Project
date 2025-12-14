@@ -12,7 +12,8 @@ dependencies = [
     "plotly",
     "scikit-learn",
     "ta",
-    "yfinance"
+    "yfinance",
+    "nbformat>=4.2.0",
 ]
 
 [tool.uv]
