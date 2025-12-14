@@ -34,13 +34,14 @@ To get a local copy up and running, follow these steps.
 ### Usage
 
 1.  Navigate to the `Project` directory.
-2.  Open `project_submission.ipynb` (or `project_starter.ipynb`) in Jupyter Notebook.
+2.  Open `project_starter.ipynb` in Jupyter Notebook.
 3.  Run all cells to execute the analysis and model training.
 
 ## Files
 
-*   `project_submission.ipynb`: The completed notebook with full analysis and implementation.
-*   `solution.py`: Python script containing the core logic and verification of the implementation.
+*   `project_starter.ipynb`: The main notebook containing the project implementation and analysis.
+*   `../pyproject.toml`: The project configuration and dependencies for `uv` (in root).
+*   `../uv.lock`: The lockfile for dependencies (in root).
 *   `xlv_data.csv`: Daily price data for XLV.
 *   `vix_data.csv`: Daily price data for VIX.
 *   `GoogleTrendsData.csv`: Monthly Google Trends data for the term "recession".
