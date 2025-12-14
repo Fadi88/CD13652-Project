@@ -1,0 +1,61 @@
+Rubric
+Use this project rubric to understand and assess the project criteria.
+
+Data Preprocessing and Feature Engineering
+Criteria	Submission Requirements
+Load the data, preprocess and clean it
+
+All data is loaded and the charts are displayed correctly.
+
+There are no NaNs in the final DataFrame.
+
+Engineer new features
+
+All the additional features are created correctly.
+
+Detect and eliminate multicollinearity in the features
+
+The correlation matrix heatmap displays corectly.
+
+The right features were dropped.
+
+Model Training and Tuning
+Criteria	Submission Requirements
+Define and interpret a reasonable baseline model/score
+
+The baseline score has been calculated correctly.
+
+Train and cross-validate an AI model
+
+The data was split correctly.
+
+5-fold cross-validation was performed correctly and the learning curves display correctly.
+
+Interpret learning curves and detect over-/under-fitting
+
+The learning curves for "manual" tuning of the max_depth hyperparameter are correct.
+
+The student's answers regarding the interpretation of learning curves are correct.
+
+Tune model hyperparameters with GridSearch
+
+GridSearch was performed correctly and the best hyperparameters were chosen.
+
+The student's answers regarding the results of GridSearch are correct.
+
+Model Evaluation and Interpretation
+Criteria	Submission Requirements
+Evaluate and interpret AI model training results
+
+Performance evaluation metrics are calculated and interpreted correctly.
+
+The student's answer regarding the comparison of the model's performance to the baseline model are correct.
+
+Evaluate and interpret feature importance
+
+| The right features are dropped and the new model is trained correctly.
+The results are interpreted correctly. |
+
+Detect and address over-/under-fitting
+
+The student's answers regarding next steps to pursue are reasonable.
